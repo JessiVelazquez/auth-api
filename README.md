@@ -8,11 +8,11 @@
 
 **Branch name:** dev
 
-## Links
+## Links..
 
 Deployed Link: [https://jessi-bearer-auth.herokuapp.com/](https://jessi-bearer-auth.herokuapp.com/)
 
-Github Actions: [https://github.com/JessiVelazquez/bearer-auth/actions](https://github.com/JessiVelazquez/bearer-auth/actions)
+Github Actions: [https://github.com/JessiVelazquez/auth-api/actions](https://github.com/JessiVelazquez/auth-api/actions)
 
 Pull Request: [https://github.com/JessiVelazquez/bearer-auth/pull/5](https://github.com/JessiVelazquez/bearer-auth/pull/5)
 
