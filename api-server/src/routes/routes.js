@@ -30,7 +30,8 @@ authRouter.post('/signin', basicAuth, (req, res, next) => {
   res.status(200).json(user);
 });
 
-authRouter.get('/users', bearerAuth, permissions('delete'), async (req, res, next) => {
+//=============Changed permission to 'read' because 'delete' blocks testing on non admin users================\\
+authRouter.get('/users', bearerAuth, permissions('read'), async (req, res, next) => {
   const users = await User.find({});
   const list = users.map(user => user.username);
   res.status(200).json(list);
